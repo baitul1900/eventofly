@@ -63,3 +63,20 @@ header {
 .bbb-1 {
     font-family: var(--family);
 }
+
+.icon {
+    opacity: 80%;
+    color:#333
+    font-family:"Roboto Flex", sans-serif;
+}
+
+.ev {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.jn {
+    font-family: "Roboto Flex", sans-serif;
+    border-radius:50px !important;
+}
