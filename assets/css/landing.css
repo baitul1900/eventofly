@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --buttontop: rgba
+    --font-family: "Roboto Flex", sans-serif;
+    --button: #ffba10;
+    --family:'Courgette', cursive;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFCF9;
+}
+
+header {
+    background-image: url("/assets/pic/Hero\ section\ graphics\ \(1\).svg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    
+}
+
+.color-overlay {
+    min-height: 80vh;
+    color: rgb(223, 200, 200);
+}
+
+@media (max-width: 767.98px) {
+    .color-overlay {
+        min-height: 30vh;
+    }
+}
+
+.form-select {
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: black;
+  border-radius: 50px;
+}
+
+.bbb-1 {
+    font-family: var(--family);
+}
