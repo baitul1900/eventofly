@@ -1,105 +1,93 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 :root {
-    --font:"Roboto Flex", sans-serif;
-
+  --font: "Roboto Flex", sans-serif;
 }
-
 
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #FFFCF9 !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fffcf9 !important;
 }
 
-
-
 ::file-selector-button {
-    display: none;
-  }
+  display: none;
+}
 
-  input#file {
-    display: inline-block;
-    width: 100%;
-    padding: 120px 0 0 0;
-    height: 100px;
-    overflow: hidden;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    background: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698394-icon-130-cloud-upload-512.png') center center no-repeat;
-    
-    border-radius: 20px;
-    background-size: 60px 60px;
-  }
+input#file {
+  display: inline-block;
+  width: 100%;
+  padding: 120px 0 0 0;
+  height: 100px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url("https://cdn1.iconfinder.com/data/icons/hawcons/32/698394-icon-130-cloud-upload-512.png")
+    center center no-repeat;
 
-  .btn:hover {
-    background-image: linear-gradient(
-  280deg,
-  hsl(328deg 100% 51%) 0%,
-  hsl(329deg 100% 50%) 11%,
-  hsl(329deg 100% 50%) 22%,
-  hsl(331deg 100% 50%) 33%,
-  hsl(332deg 100% 50%) 44%,
-  hsl(333deg 100% 50%) 56%,
-  hsl(334deg 100% 50%) 67%,
-  hsl(335deg 100% 50%) 78%,
-  hsl(336deg 100% 50%) 89%,
-  hsl(337deg 100% 50%) 100%
-) !important;
-color: white !important;
+  border-radius: 20px;
+  background-size: 60px 60px;
+}
 
-  }
+.form-label {
+  font-family: var(--font) !important;
+  font-size: 18px !important;
+  font-weight: 200 !important;
+}
 
-  .form-label  {
-    font-family: var(--font) !important;
-    font-size: 18px !important;
-    font-weight: 200 !important;
-  }
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+input[type="time"] {
+  border: 1px solid #ffe2e6 !important;
+  background-color: #fff4f1 !important;
+}
 
-  input[type=text],
-  input[type=password],
-  input[type=email] {
-    border: 1px solid #ffe2e6 !important;
-    background-color: #fff4f1 !important;
-  }
+.form-select {
+  border: 1px solid #ffe2e6 !important;
+  background-color: #fff4f1 !important;
+}
 
-  .form-select {
-    border: 1px solid #ffe2e6 !important;
-    background-color: #fff4f1 !important;
-  }
+.card {
+  border: 1px solid #ffe2e6 !important;
+  background-color: #fff4f1 !important;
+}
 
-  .card {
-    border: 1px solid #ffe2e6 !important;
-    background-color: #fff4f1 !important;
-  }
+.para {
+  font-size: 18px !important;
+  font-weight: 200 !important;
+  font-family: var(--font);
+}
 
-  .para {
-    font-size: 18px !important;
-    font-weight: 200 !important;
-    font-family: var(--font);
-  }
+.next {
+  background-image: linear-gradient(
+    to right,
+    #ff3e87,
+    #fb3488,
+    #f72889,
+    #f2198a,
+    #ed008c
+  ) !important;
+  color: white !important;
+  width: 20%;
+  height: 7vh;
+  font-size: 19px !important;
+}
 
-  .next {
-    background-image: linear-gradient(
-        280deg,
-        hsl(328deg 100% 51%) 0%,
-        hsl(329deg 100% 50%) 11%,
-        hsl(329deg 100% 50%) 22%,
-        hsl(331deg 100% 50%) 33%,
-        hsl(332deg 100% 50%) 44%,
-        hsl(333deg 100% 50%) 56%,
-        hsl(334deg 100% 50%) 67%,
-        hsl(335deg 100% 50%) 78%,
-        hsl(336deg 100% 50%) 89%,
-        hsl(337deg 100% 50%) 100%
-      ) !important;
-      color: white !important;
-      width: 20%;
-      height: 7vh;
-      font-size: 19px !important;
-  }
+.next:hover {
+  color: black !important;
+}
 
-  .next:hover {
-    color: black !important;
-  }
+input[type="checkbox"]:checked + label {
+  background-image: linear-gradient(
+    to right,
+    #ff3e87,
+    #fb3488,
+    #f72889,
+    #f2198a,
+    #ed008c
+  ) !important;
+  color: aliceblue !important;
+}
