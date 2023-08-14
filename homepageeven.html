@@ -13,9 +13,37 @@
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/1b8c286e92.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 400vh;
+            background-color: hsl(225, 6%, 22%);
+          
+            /* margin: 0; */
+        }
+
+        h1 {
+            /* color: hsl(0, 100%, 100%); */
+            font-size: 5rem;
+            width: 100%;
+        }
+
+        webrouk-back-top-scroll-indicator {
+            /* Expected variables from inside the component (optional) */
+            --w-primary-color: 28, 95%, 54%;
+            /* HSL color values without the brackets */
+            --w-diameter-size: 46px;
+            margin: auto 50px;
+        }
+    </style>
 </head>
 
 <body>
+
     <!-- resp nav start -->
     <nav class="navbar navbar-expand-lg bg-light" style="padding-top: 0px; padding-bottom:0px;">
         <div class="container-fluid pb-2 pt-2" style="background-color:#ffff;">
@@ -43,6 +71,12 @@
         </div>
     </nav>
     <!-- nav end -->
+    <div dir="ltr text-center">
+        <h1></h1>
+        <webrouk-back-top-scroll-indicator title="Back to Top" show-at="20">
+        </webrouk-back-top-scroll-indicator>
+    </div>
+
     <header>
         <div class="color-overlay d-flex flex-column justify-content-center align-items-center">
             <div class="row d-flex justify-content-center g-3 pt-5 ps-2" style="margin-right: 0px;">
@@ -149,7 +183,8 @@
                             <div class="row justify-content-between">
                                 <div class="col-auto">
                                     <a href="#" class="btn text-light jn"
-                                        style="background-image: linear-gradient(to left top, #FF7F3F, #FA763A, #F56E35, #EF6530, #EA5C2B);">Join now</a>
+                                        style="background-image: linear-gradient(to left top, #FF7F3F, #FA763A, #F56E35, #EF6530, #EA5C2B);">Join
+                                        now</a>
                                 </div>
                                 <div class="col-auto">
                                     <div class="dropdown">
@@ -426,18 +461,22 @@
             </div>
         </div>
     </div>
-  
+
     <!--download app section here  -->
-    <section style="padding-right: 0px ; padding-left:0px; margin-top: 144px; background-color:rgba(212, 203, 203, 0.116); ">
+    <section
+        style="padding-right: 0px ; padding-left:0px; margin-top: 144px; background-color:rgba(212, 203, 203, 0.116); ">
         <div class="container pt-5 pb-5">
             <div class="row justify-content-center">
-                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center align-items-center">
+                <div
+                    class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center align-items-center">
                     <div class="row  justify-content-center ">
                         <h1 class="para text-center hp pt-2 ">Download Our App</h1>
-                        <p class="para text-center dp">You can also download our app <br> Form our app you can get our all
+                        <p class="para text-center dp">You can also download our app <br> Form our app you can get our
+                            all
                             service easily.</p>
                         <div class="row w-75 justify-content-center align-items-center">
-                            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 my-1 d-flex justify-content-center align-items-center">
+                            <div
+                                class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 my-1 d-flex justify-content-center align-items-center">
                                 <div class="btn" style="background-color: #9a2902; width: 200px;">
                                     <div class="row justify-content-center align-items-center pt-1">
                                         <div class="col-2"><i class="fab fa-apple fs-2 text-light"></i></div>
@@ -452,24 +491,28 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 my-4 d-flex justify-content-center align-items-center">
+                            <div
+                                class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 my-4 d-flex justify-content-center align-items-center">
                                 <div class="btn" style="background-color: #9a2902; width: 200px; ">
                                     <div class="row justify-content-center align-items-center pt-1">
                                         <div class="col-2"><i class="fab fa-google-play fs-2 text-light"></i></div>
-                                        <div class="col-10"><div class="row">
-                                            <div class="col-12 bp">GET IT ON</div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-12 cp">GOOGLE PLAY
+                                        <div class="col-10">
+                                            <div class="row">
+                                                <div class="col-12 bp">GET IT ON</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12 cp">GOOGLE PLAY
                                                 </div>
-                                        </div></div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center align-items-center">
+                <div
+                    class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center align-items-center">
                     <img src="assets/pic/download_app.png" class="img-fluid w-75" alt="download_app">
                 </div>
     </section>
@@ -479,16 +522,18 @@
 
 
 
-    
-        <div class="container-fluid" style="background-color: #BC3000 !important;">
-            <div class="row justify-content-center" >
-                <div class="col-auto pt-3">
-                    <p class="text-light" style="opacity: 75%;">@ 2022 <a href="" class="text-light">MIT PARK LTD</a> All
-                        Right Reseved</p>
-                </div>
+
+    <div class="container-fluid" style="background-color: #BC3000 !important;">
+        <div class="row justify-content-center">
+            <div class="col-auto pt-3">
+                <p class="text-light" style="opacity: 75%;">@ 2022 <a href="" class="text-light">MIT PARK LTD</a> All
+                    Right Reseved</p>
             </div>
         </div>
-    
+    </div>
+
+    <script src="node_modules/webrouk-back-top-scroll-indicator/webrouk-back-top-scroll-indicator.js"></script>
+
 
 </body>
 

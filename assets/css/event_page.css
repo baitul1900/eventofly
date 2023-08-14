@@ -63,29 +63,29 @@ ul li a {
     
 }
 
-input[type=text] {
+/* input[type=text] {
     border: 0 !important;
     outline: 0 !important;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     box-shadow: 10px;
-}
+} */
 
-.input-group-text {
+/* .input-group-text {
     background-color: white !important;
     border: 0 !important;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     /* border-radius: 50px !important; */
-}
+} */
 
-::placeholder {
+/* ::placeholder {
     color: #e5424d28 !important;
     font-size: 17px !important;
     opacity: 60% !important;
     font-family: var(--fonttwo);
     font-weight:  !important;
-}
+} */
 
 .input-group-text i {
     color: #ed008c !important;

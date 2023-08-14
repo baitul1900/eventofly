@@ -35,7 +35,7 @@ input#file {
   font-size: 18px !important;
   font-weight: 200 !important;
 }
-
+/* 
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -43,7 +43,7 @@ input[type="date"],
 input[type="time"] {
   border: 1px solid #ffe2e6 !important;
   background-color: #fff4f1 !important;
-}
+} */
 
 .form-select {
   border: 1px solid #ffe2e6 !important;
